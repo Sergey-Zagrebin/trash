@@ -24,3 +24,18 @@ git checkout {ветка}
 
 //СДЕЛАТЬ ВЕТКУ ГЛАВНОЙ
 git merge {ветка}
+
+deg=0
+coef=0
+print("Deg and Coef")
+en={}
+
+while(True):
+	deg, coef = map(int, input().split())
+	if (deg==-1):
+		break;
+	en[deg]=coef
+
+for i in range(en.keys()[0]):
+	
+
