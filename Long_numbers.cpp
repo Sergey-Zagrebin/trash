@@ -81,8 +81,8 @@ void main() {
 		cout << "1 Inversion\n";
 		cout << "2 Adding\n";
 		cout << "3 Substraction\n";
-		cout << "4 Multip (not ready)\n";
-		cout << "5 Division (not ready)\n";
+		cout << "4 Multip\n";
+		cout << "5 Division\n";
 		cin >> mode;
 		switch (mode) {
 		case 1:
